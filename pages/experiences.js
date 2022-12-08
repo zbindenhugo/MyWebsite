@@ -1,11 +1,11 @@
 import Head from "next/head";
 import Link from "next/link";
 
-export default function Diplomas(){
+export default function Experiences(){
     return(
         <>
             <Head>
-                <title>Mes diplomes</title>
+                <title>Mes expériences professionelles</title>
             </Head>
             <div className="fixed top-1/2 -translate-y-1/2 text-center w-full text-[#a7a9be] text-5xl">
                 <p> PAGE EN COURS DE CONSTRUCTION ... REVENEZ PLUS TARD</p>
