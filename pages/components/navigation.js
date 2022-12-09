@@ -4,12 +4,7 @@ import {motion} from 'framer-motion'
 export default function Navigation({ active }){
 
     return(
-        <motion.nav 
-            className="w-full bg-transparent  mb-10 text-center sm:opacity-100 opacity-0 border-b border-[#ff8906]"
-            initial={{opacity: 0}}
-            animate={{opacity: 1}}
-            transition={{duration: 0.8, delay: 1.2}}
-        >
+        <nav className="w-full bg-transparent  mb-10 text-center sm:opacity-100 opacity-0 border-b border-[#ff8906]">
             <ul className="text-[#fffffe] flex md:gap-10 gap-2 md:text-xl text-md p-4 left-1/2 justify-center">
                 <Link className={active === 'about' ? 'border-b-2 font-bold border-[#ff8906]' : ''} href='/about-me'>Accueil</Link>
                 <Link className={active === 'diplomas' ? 'border-b-2 font-bold border-[#ff8906]' : ''} href='/diplomas'>Mes diplômes</Link>
@@ -17,6 +12,6 @@ export default function Navigation({ active }){
                 <Link className={active === 'projects' ? 'border-b-2 font-bold border-[#ff8906]' : ''} href='/side-projects'>Mes projets persos</Link>
                 <Link className={active === 'contact' ? 'border-b-2 font-bold border-[#ff8906]' : ''} href='/contact-me'>Me contacter</Link>
             </ul>
-        </motion.nav>
+        </nav>
     )
 }
