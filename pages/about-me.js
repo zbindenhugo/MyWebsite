@@ -18,7 +18,7 @@ export default function AboutMe(){
                     initial={{x: '-100vw'}}
                     animate={{x: 0}}
                     transition={{duration: 0.8}}
-                    className='text-center text-[#fffffe] text-7xl'
+                    className='text-center text-[#fffffe] md:text-7xl text-5xl'
                 >
                     Bonjour ! 
                 </motion.div>
@@ -26,15 +26,15 @@ export default function AboutMe(){
                     initial={{x: '-100vw'}}
                     animate={{x: 0}}
                     transition={{duration: 0.8}}
-                    className='text-center text-[#a7a9be] text-xl'
+                    className='text-center text-[#a7a9be] md:text-xl text-sm p-5'
                 >
-                    <div className='mt-5 mb-10 text-2xl'>
+                    <div className='mt-5 mb-10 md:text-2xl text-md'>
                         Je m'appelle Hugo Zbinden, et je suis un jeune développeur web.    
                     </div> 
 
                     <div className='grid xl:grid-cols-2 grid-cols-1'>
                         <div className='mb-10 md:text-left'>
-                            <h1 className='text-5xl text-[#fffffe] text-center'>Pourquoi j'aime le Web ?</h1>
+                            <h1 className='md:text-5xl text-2xl text-[#fffffe] text-center'>Pourquoi j'aime le Web ?</h1>
                             <div className='md:ml-10 mt-4'>
                                 <p>Le web est un domaine qui me passionne depuis le début de mes études (~5ans).</p>
                                 <p>Après avoir appris les bases sur <strong>HTML</strong> / <strong>CSS</strong> / <strong>JS</strong>, j'ai travailler sur <strong>PHP</strong> avec le framework <strong>Symfony</strong>.</p>
@@ -46,7 +46,7 @@ export default function AboutMe(){
                         <div>    
                         </div>
                         <div className='mb-10 md:text-right'>
-                            <h1 className='text-5xl text-[#fffffe] text-center'>Mes passions ?</h1>
+                            <h1 className='md:text-5xl text-2xl text-[#fffffe] text-center'>Mes passions ?</h1>
                             <div className='md:mr-10 mt-4'>
                                 <p>Une de mes passions c'est le Handball. J'ai pratiqué ce sport pendant 8ans ce qui m'as appris l'esprit d'équipe, l'entraide, le partage, et surtout la cohésion d'équipe.</p>    
                                 <p>Une autre de mes passions est les jeux vidéos, je baigne dedans depuis tout jeune.</p>
