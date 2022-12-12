@@ -1,4 +1,4 @@
-export default function CustomInput({type, placeholder, name, value, onChange}){
+export default function CustomInput({type, name, placeholder, value, onChange}){
 
     return(
         <div className={type === 'textarea' || name.includes('email') ? 'col-span-2 w-full' : ''}>

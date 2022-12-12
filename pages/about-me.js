@@ -1,9 +1,5 @@
 import {motion} from 'framer-motion'
 import Navigation from './components/navigation'
-import Image from 'next/image'
-
-import lolPng from '../public/lolPng.png'
-import wowPng from '../public/wowPng.png'
 import Head from 'next/head'
 
 export default function AboutMe(){

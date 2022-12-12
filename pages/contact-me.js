@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Link from "next/link";
 import Navigation from "./components/navigation";
 import emailjs from '@emailjs/browser';
 import { useState } from "react";
