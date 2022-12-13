@@ -2,7 +2,6 @@ import Head from "next/head";
 import Navigation from "./components/navigation";
 import emailjs from '@emailjs/browser';
 import { useState } from "react";
-import CustomInput from "./components/custominput";
 
 export default function ContactMe(){
 
@@ -55,10 +54,18 @@ export default function ContactMe(){
                 <div className="mt-15 grid sm:grid-cols-3 p-5">
                     <div />
                     <form onSubmit={sendEmail} className='grid sm:grid-cols-2 grid-cols-1 gap-5 '>
-                        <CustomInput type='text'     name='from_nom'     placeholder='Nom'               value={firstname} onChange={setfirstname} />
-                        <CustomInput type='text'     name='from_prenom'  placeholder='Prénom'            value={lastname}  onChange={setlastname} />
-                        <CustomInput type='text'     name='from_email'   placeholder='Email'             value={email}     onChange={setemail} />
-                        <CustomInput type='textarea' name='from_message' placeholder='Votre message ...' value={message}   onChange={setmessage} />
+                        <div>
+                            <input type='text' placeholder='Nom' name='from_nom' value={firstname} onChange={(e) => setfirstname(e.target.value)} className='w-full rounded-lg border-gray-200 md:p-5 p-3 sm:text-xl text-md' />
+                        </div>
+                        <div>
+                            <input type='text' placeholder='Prénom' name='from_prenom' value={lastname} onChange={(e) => setlastname(e.target.value)} className='w-full rounded-lg border-gray-200 md:p-5 p-3 sm:text-xl text-md' />
+                        </div>
+                        <div className='col-span-2 w-full'>
+                            <input type='text' placeholder='John.doe@example.com' name='from_email' value={email} onChange={(e) => setemail(e.target.value)} className='w-full rounded-lg border-gray-200 md:p-5 p-3 sm:text-xl text-md' />
+                        </div>
+                        <div className='col-span-2 w-full'>
+                            <textarea type='textarea' placeholder='Écrivez ici votre message ...' name='from_message' value={message} onChange={(e) => setmessage(e.target.value)} className='w-full rounded-lg border-gray-200 md:p-5 p-3 sm:text-xl text-md' />
+                        </div>
                         <button type="submit" className="p-5 bg-[#f25f4c] text-[#fffffe] col-span-2" value='Send'>
                             Envoyer le message !
                         </button>
