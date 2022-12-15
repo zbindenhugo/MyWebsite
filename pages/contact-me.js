@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Navigation from "./components/navigation";
+import {motion} from 'framer-motion';
 import emailjs from '@emailjs/browser';
 import { useState } from "react";
 
@@ -41,7 +42,11 @@ export default function ContactMe(){
                 <title>Me contacter</title>
             </Head>
             <Navigation active='contact' />
-            <div className="fixed sm:top-1/2 sm:-translate-y-1/2">
+            <motion.div 
+                initial={{x: '-100vw'}}
+                animate={{x: 0}}
+                transition={{duration: 0.8}}
+                className="fixed sm:top-1/2 sm:-translate-y-1/2 sm:mt-5 mt-14">
                 <div>
                     <div className="text-center text-[#fffffe] md:text-5xl text-3xl">
                         Formulaire de contact
@@ -72,7 +77,7 @@ export default function ContactMe(){
                     </form>
                     <div />
                 </div>
-            </div>
+            </motion.div>
         </>
     )
 }

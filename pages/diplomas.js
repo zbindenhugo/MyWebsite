@@ -22,17 +22,17 @@ export default function Diplomas(){
             {
                 
                 <motion.div 
-                    className="text-[#a7a9be]"
+                    className="text-[#a7a9be] sm:mt-5 mt-14"
                     initial={{x: '-100vw'}}
                     animate={{x: 0}}
                     transition={{duration: 0.8}}
                 >
-                    <div className="md:text-7xl text-5xl text-center text-[#fffffe]">
+                    <div className="md:text-7xl text-5xl text-center text-[#fffffe] ">
                         Mes diplomes
                     </div>
                     <div className="grid sm:grid-cols-2 grid-cols-1 text-center mt-20 p-5">
                         <div>
-                            <h1 className="md:text-4xl text-2xl">LICENCE INFORMATIQUE</h1>
+                            <h1 className="md:text-4xl text-2xl text-[#fffffe]">LICENCE INFORMATIQUE</h1>
                             <h2 className="text-sm italic text-[#f25f4c]">Reims - Sept. 2019 / Juil. 2020</h2>
                             <div className="p-5 text-left">
                                 <p className="mb-2">
@@ -53,7 +53,7 @@ export default function Diplomas(){
                         </div>
                         <hr className="md:hidden mt-10" />
                         <div className="sm:mt-0 mt-10 p-5">
-                            <h1 className="md:text-4xl text-2xl">DUT INFORMATIQUE</h1>
+                            <h1 className="md:text-4xl text-2xl text-[#fffffe]">DUT INFORMATIQUE</h1>
                             <h2 className="text-sm italic text-[#f25f4c]">Reims - Sept. 2017 / Juil. 2019</h2>
                             <div className="p-5 text-left">
                                 <p className="mb-2">

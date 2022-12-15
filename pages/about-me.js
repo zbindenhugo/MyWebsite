@@ -8,8 +8,8 @@ export default function AboutMe(){
             <Head>
                 <title>A propos de moi</title>
             </Head>
-            <div>
-                <Navigation active='about' />
+            <Navigation active='about' />
+            <div className='sm:mt-5 mt-14'>
                 <motion.div
                     initial={{x: '-100vw'}}
                     animate={{x: 0}}
