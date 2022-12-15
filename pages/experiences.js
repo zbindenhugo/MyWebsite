@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Link from "next/link";
+import {motion} from "framer-motion";
 import Navigation from "./components/navigation";
 
 export default function Experiences(){
@@ -17,7 +17,12 @@ export default function Experiences(){
                     </div>
                 */
             }
-            <div className="text-[#a7a9be]">
+            <motion.div 
+                initial={{x: '-100vw'}}
+                animate={{x: 0}}
+                transition={{duration: 0.8}}
+                className="text-[#a7a9be]"
+            >
                 <div className="md:text-7xl text-5xl text-center text-[#fffffe]">
                     Expériences professionelles
                 </div>
@@ -79,7 +84,7 @@ export default function Experiences(){
                         </div>
                     </div>
                 </div>
-            </div>
+            </motion.div>
         </>
     )
 }

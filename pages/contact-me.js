@@ -46,7 +46,7 @@ export default function ContactMe(){
                 initial={{x: '-100vw'}}
                 animate={{x: 0}}
                 transition={{duration: 0.8}}
-                className="fixed sm:top-1/2 sm:-translate-y-1/2 sm:mt-5 mt-14">
+                className="sm:top-1/2 sm:-translate-y-1/2 mt-14">
                 <div>
                     <div className="text-center text-[#fffffe] md:text-5xl text-3xl">
                         Formulaire de contact
