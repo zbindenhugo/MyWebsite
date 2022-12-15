@@ -33,7 +33,7 @@ export default function SideProjects(){
                     </div>
                 </div>
                 <div className="mt-10 grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 text-center p-5">
-                    <div>
+                    <div className="mb-20">
                         <div className="text-center text-[#fffffe] text-3xl">
                             ACPédia
                         </div>
@@ -47,7 +47,7 @@ export default function SideProjects(){
                             <p>Lien vers le site : <a href="https://acpedia.netlify.app" className="text-[#e53170]" target='_blank'>ACPédia</a></p>
                         </div>
                     </div>
-                    <div>
+                    <div className="mb-20">
                         <div className="text-center text-[#fffffe] text-3xl">
                             EShop
                         </div>
@@ -64,7 +64,7 @@ export default function SideProjects(){
                             <p>Lien vers le site : <a href="https://eshop-example.netlify.app" className="text-[#e53170]" target='_blank'>Eshop</a></p>
                         </div>
                     </div>
-                    <div>
+                    <div className="mb-20">
                         <div className="text-center text-[#fffffe] text-3xl">
                             Train My Brain
                         </div>
@@ -79,6 +79,40 @@ export default function SideProjects(){
                             </p>
                             <p>Ce site est réaliser en <strong>ReactJS</strong> et utilise le framework css <strong>TailwindCSS</strong></p>
                             <p>Lien vers le site : <a href="https://trainmybrain.netlify.app" className="text-[#e53170]" target='_blank'>Trainmybrain</a></p>
+                        </div>
+                    </div>
+                    <div className="mb-20">
+                        <div className="text-center text-[#fffffe] text-3xl">
+                            Ce site
+                        </div>
+                        <div className="text-sm italic text-[#f25f4c]">
+                            Mon site personnel
+                        </div>
+                        <div className="mt-5">
+                            <p>
+                                Bon, bien évidemment ce site est présent en tant que projet personnel. En tant que développeur web, cela aurait été 
+                                une honte que je n'ai pas mon site personnel !
+                            </p>
+                            <p>Ce site est réaliser en <strong>NextJS</strong> et utilise le framework css <strong>TailwindCSS</strong></p>
+                            <p>Pas besoin de lien vous êtes déjà dessus ... </p>
+                        </div>
+                    </div>
+                    <div className="mb-20">
+                        <div className="text-center text-[#fffffe] text-3xl">
+                            F1 News
+                        </div>
+                        <div className="text-sm italic text-[#f25f4c]">
+                            Site pour fans de F1
+                        </div>
+                        <div className="mt-5">
+                            <p>
+                                Une de mes grande passion est le sport automobile, particulièrement la Formule 1. C'est un sport noble qui demande des
+                                capacité physiqye hors du commun. Dans cette optique je suis actuellement entrain de développer un site pour fans de F1,
+                                où l'on pourra discuter de chaques Grand Prix entre fans, avoir les résultats quasiment en temps réel.
+                                Ce site est en anglais, car je trouvais cela important de ne pas le faire qu'en français afin que toutes les communautés de fans puissent se réunir.
+                            </p>
+                            <p>Ce site est réaliser en <strong>ReactJS</strong> et utilise le framework css <strong>Bootstrap</strong></p>
+                            <p>Lien vers le site : <a href="https://myf1news.netlify.app" className="text-[#e53170]" target='_blank'>F1 News</a></p>
                         </div>
                     </div>
                 </div>
