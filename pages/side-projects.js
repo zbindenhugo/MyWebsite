@@ -33,7 +33,7 @@ export default function SideProjects(){
                     </div>
                 </div>
                 <div className="mt-10 grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 text-center p-5">
-                    <div className="mb-20">
+                    <div className="sm:mb-10 mb-20">
                         <div className="text-center text-[#fffffe] text-3xl">
                             ACPédia
                         </div>
@@ -47,7 +47,7 @@ export default function SideProjects(){
                             <p>Lien vers le site : <a href="https://acpedia.netlify.app" className="text-[#e53170]" target='_blank'>ACPédia</a></p>
                         </div>
                     </div>
-                    <div className="mb-20">
+                    <div className="sm:mb-10 mb-20">
                         <div className="text-center text-[#fffffe] text-3xl">
                             EShop
                         </div>
@@ -64,7 +64,7 @@ export default function SideProjects(){
                             <p>Lien vers le site : <a href="https://eshop-example.netlify.app" className="text-[#e53170]" target='_blank'>Eshop</a></p>
                         </div>
                     </div>
-                    <div className="mb-20">
+                    <div className="sm:mb-10 mb-20">
                         <div className="text-center text-[#fffffe] text-3xl">
                             Train My Brain
                         </div>
@@ -81,8 +81,8 @@ export default function SideProjects(){
                             <p>Lien vers le site : <a href="https://trainmybrain.netlify.app" className="text-[#e53170]" target='_blank'>Trainmybrain</a></p>
                         </div>
                     </div>
-                    <div className="mb-20">
-                        <div className="text-center text-[#fffffe] text-3xl">
+                    <div className="sm:mb-10 mb-20">
+                        <div className="justify-center text-[#fffffe] text-3xl">
                             Ce site
                         </div>
                         <div className="text-sm italic text-[#f25f4c]">
@@ -97,8 +97,8 @@ export default function SideProjects(){
                             <p>Pas besoin de lien vous êtes déjà dessus ... </p>
                         </div>
                     </div>
-                    <div className="mb-20">
-                        <div className="text-center text-[#fffffe] text-3xl">
+                    <div className="sm:mb-10 mb-20">
+                        <div className="justify-center text-[#fffffe] text-3xl">
                             F1 News
                         </div>
                         <div className="text-sm italic text-[#f25f4c]">

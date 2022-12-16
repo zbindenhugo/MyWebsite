@@ -13,7 +13,7 @@ export default function Navigation({ active }){
 
     return(
         <>
-            <nav className="sticky top-0 w-full bg-transparent mb-5 text-center sm:block hidden  border-b border-[#ff8906]">
+            <nav className="sticky top-0 w-full bg-[#0f0e17] mb-5 text-center sm:block hidden  border-b border-[#ff8906] z-10">
                 <ul className="text-[#fffffe] flex md:gap-10 gap-2 md:text-xl text-md p-4 left-1/2 justify-center">
                     <Link className={active === 'about' ? 'border-b-2 font-bold border-[#ff8906]' : ''} href='/about-me'>Accueil</Link>
                     <Link className={active === 'diplomas' ? 'border-b-2 font-bold border-[#ff8906]' : ''} href='/diplomas'>Mes diplômes</Link>
