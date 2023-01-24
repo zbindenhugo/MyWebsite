@@ -9,24 +9,16 @@ export default function Experiences(){
                 <title>Mes expériences professionelles</title>
             </Head>
             <Navigation active='experiences' />
-            {
-                /*
-                    <div className="fixed top-1/2 -translate-y-1/2 text-center w-full text-[#a7a9be] text-5xl">
-                        <p> PAGE EN COURS DE CONSTRUCTION ... REVENEZ PLUS TARD</p>
-                        <Link href='/about-me' className="text-2xl underline">Revenir à l'accueil</Link>
-                    </div>
-                */
-            }
             <motion.div 
                 initial={{x: '-100vw'}}
                 animate={{x: 0}}
                 transition={{duration: 0.8}}
-                className="text-[#a7a9be]"
+                className="text-[#a7a9be] sm:mt-5 mt-14"
             >
                 <div className="md:text-7xl text-5xl text-center text-[#fffffe]">
                     Expériences professionelles
                 </div>
-                <div className="text-center italic mt-5">
+                <div className="text-center italic mt-5 p-2">
                     Voici toutes les expériences professionelles que j'ai à ce jour !
                 </div>
                 <div className="p-14 text-center grid md:grid-cols-2 grid-cols-1">

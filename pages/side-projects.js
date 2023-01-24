@@ -9,14 +9,6 @@ export default function SideProjects(){
             <Head>
                 <title>Mes projets personnels</title>
             </Head>
-            {
-                /*
-                    <div className="fixed top-1/2 -translate-y-1/2 text-center w-full text-[#a7a9be] text-5xl">
-                        <p> PAGE EN COURS DE CONSTRUCTION ... REVENEZ PLUS TARD</p>
-                        <Link href='/about-me' className="text-2xl underline">Revenir à l'accueil</Link>
-                    </div>
-                */
-            }
             <Navigation active='projects' />
             <motion.div
                 className="text-[#a7a9be] sm:mt-5 mt-14"
@@ -28,7 +20,7 @@ export default function SideProjects(){
                     <div className="md:text-7xl text-5xl text-center text-[#fffffe]">
                         Projets personnels
                     </div>
-                    <div className="text-center italic mt-5">
+                    <div className="text-center italic mt-5 p-2">
                         Ici vous trouverez tous les projets personnels que j'ai fait, ou que je suis entrain de faire !
                     </div>
                 </div>

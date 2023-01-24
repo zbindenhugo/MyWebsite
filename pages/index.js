@@ -29,6 +29,22 @@ export default function Home() {
           </motion.div>
           <motion.div 
             initial={{opacity: 0}}
+            transition={{delay: 0.6, duration: 0.5}}
+            animate={{opacity: 1}}
+            className='text-[#a7a9be] xl:text-md text mt-5'
+          >
+            <strong>En recherche active d'un emploi.</strong> 
+          </motion.div>
+          <motion.div 
+            initial={{opacity: 0}}
+            transition={{delay: 0.6, duration: 0.5}}
+            animate={{opacity: 1}}
+            className='text-[#a7a9be] xl:text-md text'
+          >
+            <strong>Si vous êtes intéressé, contactez moi par le biais de mon formulaire de contact.</strong>
+          </motion.div>
+          <motion.div 
+            initial={{opacity: 0}}
             transition={{delay: 1.5, duration: 0.3}}
             animate={{opacity: 1}}
             className='text-[#a7a9be] mt-20 animate-bounce transition-all duration-75'

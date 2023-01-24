@@ -6,10 +6,6 @@ import { useState } from "react";
 export default function Navigation({ active }){
 
     const [showMenu, setShowMenu] = useState(false)
-    
-    const clickShowMessage = () => {
-
-    }
 
     return(
         <>
